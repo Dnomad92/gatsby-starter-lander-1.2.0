@@ -14,52 +14,49 @@ const Index = () => (
   <Layout>
     <section className="pt-20 md:pt-40">
       <div className="container mx-auto px-8 lg:flex">
-        <div className="text-center lg:text-left lg:w-1/2">
+        <div className="text-center lg:text-center ">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            Main title of your landing page
+            CRIANDO IDÉIAS <br/> GERANDO CONEXÕES
+
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            Free landing page template to promote your business startup and generate leads for the
-            offered services
+            Deixe-nos ajudar você a aumentar sua presença online. A Toca da Designer é a sua escolha definitiva para agência de mídia social
           </p>
           <p className="mt-8 md:mt-12">
-            <Button size="lg">Get Started</Button>
+            <Button size="lg">WhatsApp</Button>
           </p>
-          <p className="mt-4 text-gray-600">Sed fermentum felis ut cursu</p>
+          <p className="mt-4 text-gray-600">Entre em contato conosco AGORA mesmo!</p>
         </div>
-        <div className="lg:w-1/2">
+        {/*<div className="lg:w-1/2">
           <HeroImage />
-        </div>
+        </div>*/}
       </div>
     </section>
     <section id="features" className="py-20 lg:pb-40 lg:pt-48">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl lg:text-5xl font-semibold">Main Features</h2>
+        <h2 className="text-3xl lg:text-5xl font-semibold">Beneficios</h2>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Service One</p>
+              <p className="font-semibold text-xl">Maior alcance</p>
               <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
+                 Com nosso plano de mídia social, sua empresa poderá alcançar um público maior e mais diversificado. Isso significa que você poderá alcançar mais clientes em potencial e, assim, aumentar suas chances de sucesso.
               </p>
             </Card>
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Service Two</p>
+              <p className="font-semibold text-xl">Melhora da reputação da marca</p>
               <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
+              Uma presença forte nas redes sociais pode ajudar a melhorar a reputação da sua marca. Com nosso plano de mídia social, você poderá mostrar aos seus clientes que é uma empresa confiável e respeitável.
               </p>
             </Card>
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Service Three</p>
+              <p className="font-semibold text-xl">Melhoria da eficiência do marketing</p>
               <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
+                Com nosso plano de mídia social, você poderá melhorar a eficiência do seu marketing. Nossos especialistas podem ajudá-lo a criar campanhas publicitárias bem-sucedidas e a maximizar o ROI de suas iniciativas de marketing.
               </p>
             </Card>
           </div>
@@ -70,10 +67,11 @@ const Index = () => (
       id="services"
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">Market Analysis</h3>
+          <h3 className="text-3xl font-semibold leading-tight">
+          Criação de conteúdo personalizado e criativo, adaptado ao seu público-alvo e à sua marca.
+          </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Our team of enthusiastic marketers will analyse and evaluate how your company stacks
-            against the closest competitors
+            Nosso serviço de mídia social oferece conteúdo personalizado e criativo, criado especificamente para a sua marca e seu público-alvo. Isso garante que suas postagens nas redes sociais sejam autênticas e relevantes para seus seguidores, o que aumentará o engajamento e as interações com sua marca.
           </p>
         </div>
       }
@@ -84,11 +82,10 @@ const Index = () => (
       primarySlot={
         <div className="lg:pl-32 xl:pl-48">
           <h3 className="text-3xl font-semibold leading-tight">
-            Design And Plan Your Business Growth Steps
+            Programação e publicação regular de posts em todas as suas redes sociais.
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Once the market analysis process is completed our staff will search for opportunities
-            that are in reach
+            É importante manter uma presença ativa nas redes sociais para aumentar a visibilidade e o alcance da sua marca. Com nosso serviço, você terá postagens regulares e bem planejadas em todas as suas plataformas de mídia social, garantindo que seus seguidores vejam sua marca com frequência e tenham um motivo para interagir com suas postagens.
           </p>
         </div>
       }
@@ -98,11 +95,10 @@ const Index = () => (
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">
-            Search For Performance Optimization
+            Monitoramento de engajamento e interações com seu público
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            With all the information in place you will be presented with an action plan that your
-            company needs to follow
+            Além de publicar conteúdo regularmente, é importante monitorar as interações e o engajamento com seu público. Com nosso serviço, você terá acesso a análises detalhadas de cada interação e engajamento, permitindo que você ajuste sua estratégia de mídia social com base nos resultados.
           </p>
         </div>
       }
@@ -137,12 +133,12 @@ const Index = () => (
       </div>
     </section>
     <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
-      <h3 className="text-5xl font-semibold">Ready to grow your business?</h3>
+      <h3 className="text-5xl font-semibold">Tem alguma dúvida?</h3>
       <p className="mt-8 text-xl font-light">
-        Quis lectus nulla at volutpat diam ut. Enim lobortis scelerisque fermentum dui faucibus in.
+        Se quiser saber mais sobre como a Toca da Designer pode ajudá-lo, entre em contato conosco hoje mesmo e fale com nossa equipe de especialistas em mídia social!
       </p>
       <p className="mt-8">
-        <Button size="xl">Get Started Now</Button>
+        <Button size="xl">WhatsApp</Button>
       </p>
     </section>
   </Layout>
